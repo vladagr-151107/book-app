@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Stalking Jack The Ripper</title>
+    <style>
+        body {
+            text-align: center;
+        background: linear-gradient(109.6deg, rgb(5, 85, 84) 11.2%, rgb(64, 224, 208) 91.1%);
+        padding: 20px;
+        }
+        h1 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 30px;
+        }
+        h2 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+        border: 1px solid white;
+        padding: 5px;
+        border-radius: 4px;
+        }
+        img{
+            border-radius: 3px;
+            width: 400px;
+        }
+        button{
+           margin: 10px 0 ;
+        }
+        p {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+        line-height: 1.5;
+        }
+        a{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .info{
+        color: black;
+        }
+        .page {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .info:hover{
+          text-shadow: 5px 5px 10px rgba(235, 248, 233, 0.4);
+          color: #ebf8e9;  
+        }
+        .name:hover{
+          text-shadow: 5px 5px 10px rgba(235, 248, 233, 0.4);
+          color: #ebf8e9;  
+        }
+        .name {
+            color: black;
+        }
+        button {
+          background: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);  
+          border: 2px solid rgb(24, 44, 30);
+          border-radius: 22px;
+          padding: 10px;
+          font-size: 20px;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          box-shadow: 3px 3px 5px black ;
+          color: black;
+        }
+        button:hover {
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body>
+    <h1> I love reading detective books. </h1>
+    <h2> Especially Stalking Jack The Ripper series </h2>
+    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/047/363/original/stalk.jpg?1664727841" 
+    alt="Stalking Jack The Ripper"
+    />
+    <p> <strong> This #1 New York Times bestseller and deliciously creepy horror novel has a storyline inspired by the Ripper murders and an unexpected, blood-chilling conclusion.</strong><br>
+Seventeen-year-old Audrey Rose Wadsworth was born a lord's daughter, with a life of wealth and privilege stretched out before her. 
+But between the social teas and silk dress fittings,</br> she leads a forbidden secret life. 
+Against her stern father's wishes and society's expectations, Audrey often slips away to her uncle's laboratory to study the gruesome practice of forensic</br>  medicine.
+When her work on a string of savagely killed corpses drags Audrey into the investigation of a serial murderer, her search for answers brings her close to her own</br> sheltered world. 
+The story's shocking twists and turns, augmented with real, sinister period photos, will make this dazzling, #1 New York Times bestselling debut from author <strong> Kerri Maniscalco </strong> to forget.</p>
+<hr>
+<a href="https://kerrimaniscalco.com/stalkingjacktheripper/" class="info">
+    You can learn more about the author Kerri Maniscalco and her books here.
+</a>
+</br><button> Buy this book. </button>
+<div class="page">This page was built by <a href="https://instagram.com/_princesska_1511_?igshid=YmMyMTA2M2Y=" 
+target="_blank" class="name"> Vlada Grushchenko</a>
+</div>
+<script>
+    function buy(){
+        let name = prompt("What is your name?")
+        let email = prompt("What is your email?")
+        
+        if(name.length > 0 && email.length) {
+        alert("Thanks, " + name + " ,we will send you an email, when the book would be in stock!")
+        }
+    }
+    let button = document.querySelector("button");
+    button.addEventListener("click",buy)
+</script>
+</body>
+</html>
